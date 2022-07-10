@@ -1,0 +1,69 @@
+body 
+{
+    background-image: url(../images/background.png);
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#home {
+    height: 75vh;
+}
+
+h1 {
+    color: rgb(7, 141, 168);
+
+}
+
+.group {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    background-color: rgba(255,255,255,0.9) !important;
+}
+.navbar
+{
+    background-color: rgba(13,202,240,0.7) !important;
+
+}
+input,
+textarea {
+    background-color: transparent !important;
+  
+}
+.signUp
+{
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: rgb(182, 182, 182) !important;
+}
+
+input:focus,
+textarea:focus {
+    box-shadow: 0 0 0 0 transparent !important;
+    border-color: rgb(7, 141, 168) !important;
+}
+.nav-link
+{
+    color: white !important;
+    border-radius: 10px;
+    border: 2px solid #fff ;
+}
+.nav-link:hover
+{
+    background-color: rgb(7, 141, 168) ;
+    border: 2px solid rgb(7, 141, 168) ;
+}
+button
+{
+     border-color: rgb(7, 141, 168) !important;
+     color: rgb(7, 141, 168) !important;
+}
+button:hover
+{
+  color: white !important;
+  background-color: rgb(7, 141, 168) !important;
+}
+a
+{
+  text-decoration: none !important;
+  color: red !important;
+}
